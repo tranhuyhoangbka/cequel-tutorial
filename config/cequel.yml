@@ -1,0 +1,19 @@
+development:
+  host: localhost
+  port: 9042
+  keyspace: cequel_tutorial
+
+test:
+  host: localhost
+  port: 9042
+  keyspace: cequel_tutorial_test
+
+production:
+  hosts:
+    - 'cass1.cequel_tutorial.biz'
+    - 'cass2.cequel_tutorial.biz'
+    - 'cass3.cequel_tutorial.biz'
+  port: 9042
+  keyspace: cequel_tutorial_production
+  username: 'myappuser'
+  password: 'password1'
